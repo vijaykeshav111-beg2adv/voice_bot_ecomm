@@ -1,0 +1,7 @@
+# Caddy gets and renews the HTTPS certificate for DOMAIN automatically (browsers only allow the
+# microphone on https:// or localhost). DOMAIN comes from .env.
+{$DOMAIN:localhost} {
+	reverse_proxy app:8000 {
+		flush_interval -1
+	}
+}

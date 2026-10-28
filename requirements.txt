@@ -1,0 +1,20 @@
+faster-whisper
+sounddevice
+scipy
+numpy
+python-dotenv
+elevenlabs
+pygame
+groq
+httpx
+fastapi
+uvicorn
+python-multipart
+pymysql
+cryptography
+tzdata
+
+# Optional MCP protocol server (python mcp_server.py)
+mcp>=1.9,<2
+
+pypdf>=5.0,<7

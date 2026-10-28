@@ -1,0 +1,17 @@
+# Python environments
+.venv/
+.venv312/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+
+# Allow the example configuration
+!.env.example
+
+# Logs and generated files
+logs/
+*.log
